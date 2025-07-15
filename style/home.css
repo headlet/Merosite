@@ -1,17 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    color: wheat;
+}
+.logo{
+    font-size: 25px;
+    color: rgb(244, 236, 0);
+    font-weight: bold;
 }
 .nav a{
     text-decoration: none;
-    padding: 5px;
+    padding: 8px;
 }
 .nav{
     display: flex;
-    justify-content: center;
-    background-color: aqua;
+    justify-content: space-between;
+    background-color: rgb(13, 0, 77);
     height: 45px;
     align-items: center;
+    padding: 0px 20px 0px 20px;
 }
 a:hover{
     background-color: azure;
