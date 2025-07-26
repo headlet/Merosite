@@ -36,36 +36,40 @@
 
 <!-- login page body -->
 
-<body>
-    <main>
-        <section class="bg-primary/50 h-svh flex items-center justify-center">
-            <div class="container mx-auto px-4  ">
-                <div class="  md:flex lg:flex">
-                    <!-- div1-->
-                    <div class=" rounded-2xl bg-secondary/50 py-10 px-5">
-                        <h2 class="text-4xl font-semibold">Welcome back</h2>
-                        <p class="text-sm mt-3">
-                            To stay connected with us please login with your personal info
-                        </p>
-                        <div class="flex justify-center "><button
-                                class="bg-primary text-xl px-24 rounded hover:text-white mt-3 py-3">signup</button>
-                        </div>
-                    </div>
-
-                    <!-- div2 -->
-                    <div class=" rounded-2xl bg-primary/50 py-10 px-5 mt-3 md:mt-0 lg:mt-0 md:ml-3 lg:ml-3">
-                        <h2 class="text-4xl font-semibold">Welcome to Merosite</h2>
-                        <p class="my-2 ">Login to your account to continue</p>
-                        <form action="#" class="px-4 sm:flex sm:flex-col md:flex md:flex-col lg:flex-col">
-                            <input class="my-2 rounded pl-4 py-4 " type="email" placeholder="Enter your email" />
-                            <input class="my-2 rounded pl-5 py-4" type="password" placeholder="Enter your password" />
-                        </form>
+<body class="bg-primary/50 flex items-center justify-center w-screen h-screen">
+    <section class="h-50 w-50 h-screen container mx-auto px-4 bg-white h-screen flex items-center justify-center">
+        <!-- <div class=" "> -->
+            <!-- <div class="md:flex lg:flex"> -->
+                <!-- div1-->
+                <div class="rounded-2xl bg-secondary/50 py-10 px-5 h-[500px]">
+                    <h2 class="text-4xl font-semibold">Welcome back</h2>
+                    <p class="text-sm mt-3">
+                        To stay connected with us please login with your personal info
+                    </p>
+                    <div class="flex justify-center">
+                        <button class="bg-primary text-xl px-24 rounded hover:text-white mt-3 py-3">
+                            signup
+                        </button>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
- 
+
+                <!-- div2 -->
+                <div class="rounded-2xl bg-primary/50 py-10 px-5 mt-3 md:mt-0 lg:mt-0 md:ml-3 lg:ml-3">
+                    <h2 class="text-4xl font-semibold">Welcome to Merosite</h2>
+                    <p class="my-2">Login to your account to continue</p>
+                    <form action="#" class="px-4 sm:flex sm:flex-col md:flex md:flex-col lg:flex-col">
+                        <input class="my-2 rounded pl-4 py-4" type="email" placeholder="Enter your email" />
+                        <input class="my-2 rounded pl-5 py-4" type="password" placeholder="Enter your password" />
+                        <div class="flex justify-center">
+                            <button class="bg-primary text-xl px-24 rounded hover:text-white mt-3 py-3">
+                                login
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            <!-- </div> -->
+        </div>
+    </section>
 </body>
 
 </html>
